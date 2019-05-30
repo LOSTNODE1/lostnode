@@ -1,0 +1,16 @@
+Plant,Division,Clock # Empl ID,Name,AMEI,Department,Position,Emp Type,Term Date,Hire Date,Reason
+CLH,1,13053,"Kuminkoski, Bernard A",367474,800,Mtc Mtec Maintenance Tech Mech,B,5/1/2019,10/5/1964,
+CLH,1,13284,"Pangburn, Wylie M",367777,800,Mtc Mtec Maintenance Tech Mech,B,5/4/2019,1/19/1971,
+SLS,0,6370,"Penman, Robert J",509397,941,00625101 Project Analyst,E,5/14/2019,8/17/2015,
+WSH,35,9850,"Marshall, John R",719814,800,OPTECH Operating Technician,B,5/14/2019,2/11/2019,
+,,,"Vaca Mejia, Francisco D",636314,,,,,,Transfer
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+The data I get before import ,,,,,,,,,,
+Plant,Division,Clock # Empl ID,Name,AMEI,Department,Position,Emp Type,Term Date,Hire Date,Reason
+acme,8,142369,John doe ,93848,380,,B,43466,28662,Transfer From Cleveland
+,,,,,,,,,,
+"The data I want to import I  just need column k moved to E ,  very impportant I just need to go off the word Transfer the transfer can come from many cities ",,,,,,,,,,
+Plant,Division,Clock # Empl ID,Name,AMEI,Department,Position,Emp Type,Term Date,Hire Date,Reason
+acme,8,142369,John doe ,93848 -  Transfer from Cleveland ,380,,B,43466,28662,Transfer From Cleveland
